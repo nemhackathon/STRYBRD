@@ -1,7 +1,7 @@
 
 
 
-const wordArray = ["cold", "november", "weather", "wind", "granite", "rain", "two", "aternoon", "hills", "mist"];
+const wordArray = ["cold", "november", "weather", "wind", "granite", "rain", "two", "afternoon", "hills", "mist"];
 
 
 
