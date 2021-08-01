@@ -128,7 +128,7 @@ function mark() {
     inputSection.style.display = "none";
     conclusion.style.display = "block";
     console.log(score);
-    document.getElementById("score").innerHTML += score;
+    document.getElementById("score").innerHTML += score + "10";
     return score;
     
     }
