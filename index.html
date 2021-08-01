@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>STRYBRD</title>
+<link rel="stylesheet" href="styles.css">
+<script src="https://www.gstatic.com/firebasejs/8.8.1/firebase.js"></script>
+<script src="myscript.js"></script>
+
+</head>
+
+<body>
+    <div id="intro">
+        <h1 id="myHeader"> STRYBRD </h1>
+        <p id="pronunciation">(sto-Ree-bo-arD)</p>
+
+        <p id="thesis"> Research based project to test wether users are better at memorizing data when it is presented as a list in a linear way or as a story in a non-linear way.</p>
+        
+        
+        <button type= "button" id="playNow" onclick="randomNumber()"> Play Now </button>
+    </div>
+    
+    
+    <div id="option1"> 
+        <h2> Please read the following story and memorize the capitalized terms.</h2>   
+        <p id="story"> It was a <strong>cold</strong> day in late <strong>November</strong>. The <strong>weather</strong> had changed overnight, when a backing <strong>wind</strong> brought a <strong>granite</strong> sky and a mizzling <strong>rain</strong> with it, and although it was now only a little after <strong>two</strong> o'clock in the <strong>afternoon</strong> the pallor of a winter evening seemed to have closed upon the <strong>hills</strong>, cloaking them in <strong>mist</strong>.
+            </p>
+        <p id="citation">
+            <i>- A quote from Jamaica Inn</i>
+        </p>
+    </div>
+
+    <div id="option2"> 
+        <h2> Please memorize the following words.</h2>   
+        <p id="option2Text">3...2...1</p> 
+    </div>
+
+
+    <div id="inputSection">
+        <h3 id="inputHeader">Enter as many words as you can remember.</h3>
+        <h4 id="inputHeader2">Once you have typed as many as you can remember, just click enter for the rest.</h4>
+        
+
+        <div id="boxes">
+            <input type="text" class="textBox" id="input1">
+            <input type="text" class="textBox" id="input2">
+            <br>
+            <input type="text" class="textBox" id="input3">
+            <input type="text" class="textBox" id="input4">
+            <br>
+            <input type="text" class="textBox" id="input5">
+            <input type="text" class="textBox" id="input6">
+            <br>
+            <input type="text" class="textBox" id="input7">
+            <input type="text" class="textBox" id="input8">
+            <br>
+            <input type="text" class="textBox" id="input9">
+            <input type="text" class="textBox" id="input10">
+            <br>
+            <br>
+            <button type="button" id="submit" onclick="mark()" value="Submit">Submit</button>
+
+        </div>
+        
+        
+        
+    </div>
+
+
+    <div id="conclusion"> 
+        <h10 id=conclusionHeader> Thank you for partaking in our research survey!</h10>
+        <p id="score"> You received a score of: </p>
+    </div>
+
+    
+    
+
+
+</body>
+
+</html>
+
+
