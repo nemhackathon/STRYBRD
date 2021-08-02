@@ -120,7 +120,7 @@ function mark() {
     inputArray.push(input10.toLowerCase());
     inputArrayLength = inputArray.length
     for (i = 0; i < inputArrayLength; i++){
-        if (wordArray.includes(inputArray[i].toLowerCase()) && !checkedArray.includes(inputArray[i].toLowerCase())){
+        if (wordArray.includes(inputArray[i].trim()) && !checkedArray.includes(inputArray[i].trim())){
             score++
         }
         checkedArray.push(inputArray[i])
