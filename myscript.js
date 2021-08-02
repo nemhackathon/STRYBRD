@@ -25,9 +25,9 @@ function randomNumber() {
         
         setTimeout(function() {
             option1.style.display = "none";
-            }, 29999);
+            }, 20000);
 
-        setTimeout(getUserInput, 29999)
+        setTimeout(getUserInput, 20000)
             
     } else {
         option2.style.display = "block";
