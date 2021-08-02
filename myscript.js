@@ -99,25 +99,25 @@ function mark() {
     var checkedArray = [];
     var score = 0;
     var input1 = document.getElementById("input1").value;
-    inputArray.push(input1.toLowerCase());
+    inputArray.push(input1.toLowerCase().trim());
     var input2 = document.getElementById("input2").value;
-    inputArray.push(input2.toLowerCase());
+    inputArray.push(input2.toLowerCase().trim());
     var input3 = document.getElementById("input3").value;
-    inputArray.push(input3.toLowerCase());
+    inputArray.push(input3.toLowerCase().trim());
     var input4 = document.getElementById("input4").value;
-    inputArray.push(input4.toLowerCase());
+    inputArray.push(input4.toLowerCase().trim());
     var input5 = document.getElementById("input5").value;
-    inputArray.push(input5.toLowerCase());
+    inputArray.push(input5.toLowerCase().trim());
     var input6 = document.getElementById("input6").value;
-    inputArray.push(input6.toLowerCase());
+    inputArray.push(input6.toLowerCase().trim());
     var input7 = document.getElementById("input7").value;
-    inputArray.push(input7.toLowerCase());
+    inputArray.push(input7.toLowerCase().trim());
     var input8 = document.getElementById("input8").value;
-    inputArray.push(input8.toLowerCase());
+    inputArray.push(input8.toLowerCase().trim());
     var input9 = document.getElementById("input9").value;
-    inputArray.push(input9.toLowerCase());
+    inputArray.push(input9.toLowerCase().trim());
     var input10 = document.getElementById("input10").value;
-    inputArray.push(input10.toLowerCase());
+    inputArray.push(input10.toLowerCase().trim());
     inputArrayLength = inputArray.length
     for (i = 0; i < inputArrayLength; i++){
         if (wordArray.includes(inputArray[i].trim()) && !checkedArray.includes(inputArray[i].trim())){
