@@ -25,59 +25,59 @@ function randomNumber() {
         
         setTimeout(function() {
             option1.style.display = "none";
-            }, 20000);
+            }, 25000);
 
-        setTimeout(getUserInput, 20000)
+        setTimeout(getUserInput, 25000)
             
     } else {
         option2.style.display = "block";
 
         setTimeout(function(){
             document.getElementById('option2Text').innerHTML = wordArray[0].toUpperCase();
-            },2000);
+            },2500);
 
         setTimeout(function(){
             document.getElementById('option2Text').innerHTML = wordArray[1].toUpperCase();
-            },4000);
+            },5000);
                 
         setTimeout(function(){
             document.getElementById('option2Text').innerHTML = wordArray[2].toUpperCase();
-            },6000);
+            },7500);
             
         setTimeout(function(){
             document.getElementById('option2Text').innerHTML = wordArray[3].toUpperCase();
-            },8000); 
+            },10000); 
             
         setTimeout(function(){
             document.getElementById('option2Text').innerHTML = wordArray[4].toUpperCase();
-            },10000);
+            },12500);
 
         setTimeout(function(){
             document.getElementById('option2Text').innerHTML = wordArray[5].toUpperCase();
-            },12000);
+            },15000);
     
         setTimeout(function(){
             document.getElementById('option2Text').innerHTML = wordArray[6].toUpperCase();
-            },14000);
+            },17500);
                     
         setTimeout(function(){
             document.getElementById('option2Text').innerHTML = wordArray[7].toUpperCase();
-            },16000);
+            },20000);
                 
         setTimeout(function(){
             document.getElementById('option2Text').innerHTML = wordArray[8].toUpperCase();
-            },18000); 
+            },22500); 
                 
         setTimeout(function(){
             document.getElementById('option2Text').innerHTML = wordArray[9].toUpperCase();
-            },20000);
+            },25000);
 
 
         setTimeout(function() {
             option2.style.display = "none";
-            }, 20000);
+            }, 25000);
 
-        setTimeout(getUserInput, 20000);
+        setTimeout(getUserInput, 25000);
     
     
     }
